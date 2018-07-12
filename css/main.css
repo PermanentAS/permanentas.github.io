@@ -1,0 +1,196 @@
+/* Спецификация */
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+ul, li{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3{
+    font-weight: 700;
+    color: #000000;
+}
+
+h2{
+    text-align-last: center;
+}
+
+h3{
+    font-weight: 400;
+}
+
+.title{
+    padding-top: 100px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.title__main{
+    font-size: 32px;
+}
+
+.title__text{
+    font-size: 20px;
+    width: 780px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.yellow{
+    color: #fcdb00;
+}
+
+
+/* Первый экран */
+
+header{
+    background-color: #fcdb00;
+    color: #010101;
+    padding-top: 58px;
+    padding-bottom: 105px;
+}
+
+.menu{
+    margin-top: 8px;
+}
+
+.menu__item{
+    margin: 0 57px;
+}
+
+.menu__item a{
+    font-size: 22px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.offer{
+    margin-top: 117px;
+}
+
+.offer__title{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.offer__intro{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.offer__text{
+    font-size: 16px;
+    margin-top: 15px;
+    width: 400px;
+}
+
+.icons{
+
+}
+
+.icons__item{
+    margin-right: 30px;
+}
+
+.icons__item a{
+    color: #000000;
+    font-size: 42px;
+    transition: all 0.3s ease-in-out;
+}
+
+.icons__item a:hover{
+    text-decoration: none;
+    color: rgba(255, 138, 5, 1)
+}
+
+.ipad{
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+
+/* Второй экран */
+
+.feature{
+    margin-bottom: 60px;
+}
+
+.feature__icon{
+    font-size: 50px;
+    margin-right: 37px;
+    color: #000000;
+}
+
+.feature__text{
+    color: #898989;
+}
+
+
+/* Третий экран */
+
+.touch{
+    background-color: #000000;
+    color: #fff;
+}
+
+.form{
+    text-align: center;
+}
+
+.form__input{
+    background-color: #fff;
+    flex: 16px;
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 5px;
+    width: 580px;
+    padding: 15px 0;
+    padding-left: 24px;
+
+}
+
+.form__btn{
+    font-family: 'PT Sans', sans-serif;
+    background-color: #fcdb00;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 126px;
+    border: none;
+    padding: 14px 0;
+    cursor: pointer;
+    outline: none;
+    margin-left: 25px;
+}
+
+/* Футер */
+
+.footer{
+    background-color: #000000;
+    padding: 50px 0 94px 0;
+}
+
+.credits{
+    width: 184px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+/* Медиа-запросы */
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 576px) {
+
+}
