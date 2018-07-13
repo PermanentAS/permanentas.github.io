@@ -188,9 +188,55 @@ header{
 /* Медиа-запросы */
 
 @media screen and (max-width: 992px) {
+    .logo{
+        display: block;
+        margin: 15px auto 30px;
+    }
 
+    .offer{
+        text-align: center;
+    }
+
+    .offer__text{
+        margin: 0 auto;
+        width: auto;
+    }
+
+    .icons{
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .icons__item:nth-child(3){
+        margin-right: 0;
+    }
+
+    .form__input{
+        width: 100%;
+    }
+
+    .form__btn{
+        margin-left: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .title__text{
+        width: auto;
+    }
 }
 
 @media screen and (max-width: 576px) {
+    .ipad{
+        width: 100%;
+    }
 
+    .menu{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .offer{
+        margin-top: 70px;
+    }
 }
