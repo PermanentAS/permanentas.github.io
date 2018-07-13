@@ -104,7 +104,7 @@ header{
 
 .icons__item a:hover{
     text-decoration: none;
-    color: rgba(255, 138, 5, 1)
+    color: rgba(255, 138, 5, 1);
 }
 
 .ipad{
@@ -150,23 +150,29 @@ header{
     width: 580px;
     padding: 15px 0;
     padding-left: 24px;
-
+    outline: none;
 }
 
 .form__btn{
     font-family: 'PT Sans', sans-serif;
-    background-color: #fcdb00;
-    color: #000000;
+    background-color: #000000;
+    color: #fcdb00;
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 700;
     border-radius: 5px;
     width: 126px;
-    border: none;
+    border: 2px solid #fcdb00;
     padding: 14px 0;
     cursor: pointer;
-    outline: none;
     margin-left: 25px;
+    transition: all 0.2s ease-in-out;
+}
+
+.form__btn:hover{
+    background-color: #fcdb00;
+    color: #000000;
+
 }
 
 /* Футер */
@@ -239,4 +245,58 @@ header{
     .offer{
         margin-top: 70px;
     }
+}
+
+/* Стилизация SweetAlert */
+
+.swal-overlay{
+    background-color: rgba(138, 138, 138, 0.4);
+}
+
+.swal-footer{
+    background-color: #000000;
+    padding: 10px 10px;
+    margin-top: 40px;
+}
+
+.swal-button{
+    font-family: 'PT Sans', sans-serif;
+    background-color: #000000;
+    color: #fcdb00;
+    border: 2px solid #fcdb00;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.swal-button:hover{
+    background-color: #fcdb00;
+    color: #000000;
+}
+
+.swal-title{
+    font-weight: 700;
+    color: #000000;
+}
+
+.swal-text{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    color: #000000;
+}
+
+.swal-icon--success__ring{
+    border: 4px solid #fcdb00;
+    opacity: 0.5;
+}
+
+.swal-icon--success__line{
+    background-color: #fcdb00;
+}
+
+.swal-icon--error{
+    border-color: rgba(255, 138, 5, 1);
+}
+
+.swal-icon--error__line{
+    background-color: rgba(255, 138, 5, 1);
 }
