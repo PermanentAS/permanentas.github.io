@@ -1,8 +1,8 @@
 $(document).ready(function(){
 
-    var isValid = true;
+    var isValid = false;  
 
-    function validate() {
+    $('.form__input').blur(function validate() {
         var x = $('.form__input').val();
         var atpos = x.indexOf("@");
         var dotpos = x.lastIndexOf(".");
@@ -11,9 +11,7 @@ $(document).ready(function(){
         } else{
             isValid = true;
         }
-    }
-
-    $('.form__input').blur(validate());
+    });
 
     $( ".form__btn" ).click(function() {
                
@@ -32,6 +30,8 @@ $(document).ready(function(){
         }
 
     });
+
+
 
 
 });
